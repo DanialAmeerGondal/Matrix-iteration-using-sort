@@ -21,7 +21,7 @@ for list in matrix:
 def second(list): 
     return list[1] # second element
 
-matrix.sort(second) # sorts the matrix by the second element of each list in the matrix
+matrix.sort(key=second) # sorts the matrix by the second element of each list in the matrix
 
 print(matrix) # ---> ["a", 1] ["b", 2] ["c", 3]
 
